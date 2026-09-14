@@ -1,0 +1,205 @@
+body { 
+	FONT-FAMILY: Arial, Helvetica, sans-serif, Tahoma, Verdana; 
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 13px; 
+	COLOR: #FFF;
+	MARGIN: 0px;
+	
+	BACKGROUND-COLOR: #5994a5; 
+	BACKGROUND-image: url(baggrund_04.jpg);
+	BACKGROUND-position: top left;
+	BACKGROUND-repeat: repeat;
+	BACKGROUND-attachment: fixed;  
+	
+/*	scrollbar-face-color: #FFFF00;  
+	scrollbar-shadow-color: #000000; 
+	scrollbar-highlight-color: #000000;
+	scrollbar-3dlight-color:  #000000; 
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-track-color: #000000; 
+	scrollbar-arrow-color: #000000; */
+} 
+
+hr {
+	line-height: 1px;	
+	height: 1px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+} 
+
+#left { /* Menu ------------------------------------------------------------------------ */
+	top:0px; 
+	left:0px; 
+	width:167px; 
+	height:420px; 
+	z-index:1; 
+	position:absolute; 
+	border: none;	
+} 
+ 
+#main { /* Midter feltet DIV -------------------------------------------------------------*/
+	top:30px; 
+	left:200px; 
+	width:510px; 
+	height:400px; 
+	z-index:2; 
+	position:absolute;
+	layer-background-color: #E98794; 
+	border: none;	
+} 
+ 
+.head { 						/*Sidens overskrift        */
+	background-color: #043245;  /*transperant baggrund.    */
+    filter:alpha(opacity=90);   /* Internet Explorer       */
+    -moz-opacity:0.9;           /* Mozilla 1.6 and below   */
+    opacity: 0.9;               /* newer Mozilla and CSS-3 */
+	padding:4px;
+}
+ 
+.table-1 { 						/*fuld farve til bag celler med foto's          */
+	background-color:#043245;
+	padding:10px;
+ } 
+ 
+.trans {
+	background-color: #043245;  /*transperant baggrund. må ikke bruges på celler med foto's da de så også bliver transperante */
+    filter:alpha(opacity=90);   /* Internet Explorer       */
+    -moz-opacity:0.9;           /* Mozilla 1.6 and below   */
+    opacity: 0.9;               /* newer Mozilla and CSS-3 */
+	padding:10px;
+}
+
+H1 {							/* Sidens overskrift */
+	FONT-SIZE: 18px; 
+	COLOR: #FFF;
+	text-align:center;
+	margin:0px;
+}
+
+H4 {						/* News */
+	FONT-SIZE: 14px;
+	font-weight: bold; 
+	color: #3dac96;
+	margin:0px;
+}
+
+img
+{
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 1px 1px 1px 1px;
+}
+
+.no
+{
+	border:none;
+}
+
+A {	/*  ----------------------------------------------------------------------------------  */
+	COLOR: #57c3dd;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline;
+	CURSOR: hand;
+} 
+
+A:visited, A:active { 
+	COLOR: #57c3dd; 
+}
+
+A:hover { 
+    COLOR: #FFFFFF; 
+	TEXT-DECORATION: none; 
+}
+ 
+ #right { /* DIV til Discografi ----------------------------------------------------------------*/
+	top: 30px;
+	left: 740px;
+	width: 200px;
+	height: 40px; 
+	z-index:3; 
+	position:absolute;
+	border: none;	
+} 
+
+.table-2 { 						/* Lyse grøn tabel */
+	width:218px;
+	color:#043245;
+	font-size:10px;
+	background-color:#93c1c5;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px 1px 1px 1px;
+	padding:5px;
+} 
+
+.releases { 						/* Lyse grøn tabel på releases siden kun*/
+	width:506px;
+	color:#043245;
+	font-size:10px;
+	background-color:#93c1c5;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px 1px 1px 1px;
+	padding:5px;
+} 
+
+.apper {						/* tabael celle til ordene Singles, Albums, Compilations    */
+	background-color: #043245;  /* Mørke blå med transperans ned på den grønne tabel farve. */
+    filter:alpha(opacity=80);   /* Internet Explorer       */
+    -moz-opacity:0.8;           /* Mozilla 1.6 and below   */
+    opacity: 0.8;               /* newer Mozilla and CSS-3 */
+	padding:2px;
+}
+
+H2 {						/* Singles, Albums, Compilations */
+	FONT-SIZE: 16px; 
+	color: #FFF;
+	margin:0px;
+}
+
+H3 {						/* Dennis Agerblad appers on: */
+	FONT-SIZE: 14px;
+	font-weight: bold; 
+	/*COLOR: #043245;	mørke blå*/
+	/*color: #a61117;	mørke Rød*/
+	color: #000;
+	margin:0px;
+}
+
+ img.mini
+{
+	width:60px;
+	height:60px;
+	/*margin:5px;      */
+}
+ 
+ A.tus { /*  ---------------------------------------------------------------------- */
+	COLOR: #a61117;
+	font-size:10px;
+	font-weight: normal;
+	TEXT-DECORATION: none;
+} 
+
+A.tus:visited, A.tus:active { 
+	COLOR: #a61117; 
+}
+
+A.tus:hover { 
+    COLOR: #FFFFFF;  
+}
+
+TEXTAREA{ /*  ---------------------------------------------------------------------- */
+    border: 1px solid #FFFF00;
+    background: #FFFFFF;
+    width: 250px;
+}
+
+.button {
+	COLOR: #000000;
+	font-weight : bold;
+	font-size : 10px;
+	background-color: #FFFF00;
+	BORDER: #FFFF00 1px solid;
+}

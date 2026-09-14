@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<track>
+		<path>../../onion/cocalfaul/tunnel_vision/01_web_tunnel.mp3</path>
+		<title>1. Tunnel Vision</title>
+	</track>
+	<track>
+		<path>../../onion/cocalfaul/tunnel_vision/02_web_mutant zone.mp3</path>
+		<title>2. Mutant Zone</title>
+	</track>
+	<track>
+		<path>../../onion/cocalfaul/tunnel_vision/03_web_mutant_city.mp3</path>
+		<title>3. Mutant City</title>
+	</track>
+	<track>
+		<path>../../onion/cocalfaul/tunnel_vision/04_web_telepath_machine.mp3</path>
+		<title>4. Telepath Machine</title>
+	</track>
+	<track>
+		<path>../../onion/cocalfaul/tunnel_vision/05_web_etude.mp3</path>
+		<title>5. Étude de Horror (pour Alexis)</title>
+	</track>
+</xml>
